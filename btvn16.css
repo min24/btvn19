@@ -1163,3 +1163,9 @@ footer ul li:nth-child(5) a {
 	}
 
 }
+
+@media screen and (max-width: 540px) {
+	#header-main p {
+		display: none;
+	}
+}
