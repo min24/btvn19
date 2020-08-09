@@ -1165,8 +1165,9 @@ footer ul li:nth-child(5) a {
 }
 
 @media screen and (max-width: 400px) {
-	#header-main h1,
-	#header-main ul {
+	#header-main .container h1,
+	#header-main .container ul,
+	#header-main .container div {
 		max-width: 100%;
 	}
 	#header-main p {
@@ -1174,5 +1175,8 @@ footer ul li:nth-child(5) a {
 	}
 	#header-main #view-more {
 		margin-top: 30px;
+	}
+	#view-more button {
+		padding: 5px 10px;
 	}
 }
